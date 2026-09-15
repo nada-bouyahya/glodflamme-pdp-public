@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "created_at": "2026-09-15T00:10:51.462370+00:00",
+  "passed": true,
+  "input_versions": {
+    "product-truth.json": "1.0.0",
+    "product-strategy.json": "1.0.0",
+    "selected-offer.json": "1.0.1",
+    "selected-aftersell.json": "1.0.2",
+    "brand-system.json": "1.0.0",
+    "pdp-copy.json": "1.0.0",
+    "media-manifest.json": "1.0.1"
+  },
+  "input_digests": {
+    "product-truth.json": "6f80c7c529b402c157acb9bfbae14df77bc34fd931548d57c36ab2eda49548e8",
+    "product-strategy.json": "b6fa982f94471dbc61cf917d0dbac55d7a28dad2cea38d58e7d03d80402759c0",
+    "selected-offer.json": "f47c3ae331d3480a3f500a75b2cd489b7ff09d8c9c107f681bcc018d923f8d70",
+    "selected-aftersell.json": "8e72108b8d3b2b6b5e69b5feafa600b4fca48df62161d008e843e6e592803e84",
+    "brand-system.json": "ca84a118166d8a1a3c41a446b99d324efbdbd99622d56237a707fa97389a049a",
+    "pdp-copy.json": "bddb6285268045825485817597150d87cdf04b7d9819f1c936a9f40d43ead674",
+    "media-manifest.json": "a4df8101c76d2abece8dc73511bb62c437ba1b1f65234b762b490e51f2a26129"
+  },
+  "section_status": {
+    "promotion": "rendered",
+    "brand_header": "rendered",
+    "hero": "rendered",
+    "how_it_works": "rendered",
+    "benefits": "rendered",
+    "product_details": "rendered",
+    "comparison": "rendered",
+    "reviews": "omitted_until_authentic_evidence",
+    "faq": "rendered",
+    "final_offer": "rendered",
+    "footer": "rendered"
+  },
+  "conditional_sections": {
+    "reviews": "omitted until first-party review evidence is approved",
+    "aftersell": "separate demo route after Hero Add to Cart"
+  },
+  "missing_bindings": [
+    "merchant-owned shipping and returns policy",
+    "confirmed inventory and checkout",
+    "supplier confirmation for source-observed claims"
+  ],
+  "responsive_previews": {
+    "mobile_393": "index.html?viewport=393",
+    "tablet_768": "index.html?viewport=768",
+    "desktop_1440": "index.html?viewport=1440"
+  },
+  "interaction_checks": {
+    "shared_offer_state": "implemented",
+    "gallery_controls": "implemented",
+    "faq_accordions": "implemented",
+    "aftersell_demo_routing": "implemented",
+    "real_checkout": "disabled"
+  },
+  "files_created": [
+    "build/index.html",
+    "build/pdp-data.json",
+    "build/assets/styles.css",
+    "build/assets/app.js"
+  ],
+  "next_stage": "ui_polish"
+}

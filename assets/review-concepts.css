@@ -1,0 +1,17 @@
+.sample-reviews{scroll-margin-top:24px}
+.sample-reviews .section-intro{max-width:760px;margin-bottom:36px}
+.concept-notice{color:#48584e;max-width:70ch}
+.review-concept-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.review-concept{min-width:0}
+.review-concept figure{margin:0 0 20px}
+.review-concept img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:contain;border-radius:14px;background:var(--cream)}
+.review-concept figcaption{font-size:12px;line-height:1.5;color:#48584e;margin-top:9px}
+.review-concept h3{font:400 25px/1.2 Georgia,serif;margin:0 0 12px;text-wrap:balance}
+.review-concept p{margin:0 0 16px;font-size:15px;line-height:1.65}
+.review-concept .concept-person{font-weight:700;margin-top:20px;margin-bottom:5px}
+.concept-person span{font-weight:400;font-size:12px;color:#48584e}
+.review-concept .concept-tags{font-size:13px;color:#48584e}
+@media(max-width:1000px){.review-concept-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 24px}}
+@media(max-width:540px){.review-concept-grid{grid-template-columns:1fr;gap:40px}.review-concept figure{max-width:360px}.review-concept h3{font-size:26px}.review-concept p{font-size:16px}}
+
+.concept-rating{display:flex;gap:4px;color:#926019;margin:0 0 12px}.concept-rating svg{display:block;flex-shrink:0}

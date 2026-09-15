@@ -1,0 +1,482 @@
+{
+  "version": "1.0.0",
+  "locale": "da-DK",
+  "brand": "Nelmoo.shop",
+  "records": {
+    "product-truth.json": "1.0.0",
+    "product-strategy.json": "1.0.0",
+    "selected-offer.json": "1.0.1",
+    "selected-aftersell.json": "1.0.2",
+    "brand-system.json": "1.0.0",
+    "pdp-copy.json": "1.0.0",
+    "media-manifest.json": "1.0.3"
+  },
+  "recommended_offer_id": "a-2g",
+  "offers": [
+    {
+      "offer_id": "a-1",
+      "name": "Køb 1",
+      "role": "entry",
+      "paid_quantity": 1,
+      "gift_quantity": 0,
+      "total_quantity": 1,
+      "price": 275,
+      "comparison_value": 400,
+      "savings_amount": 125,
+      "savings_percent": 31.25,
+      "unit_price": 275.0
+    },
+    {
+      "offer_id": "a-2g",
+      "name": "Køb 2 · få 1 gratis",
+      "role": "recommended",
+      "paid_quantity": 2,
+      "gift_quantity": 1,
+      "total_quantity": 3,
+      "price": 550,
+      "comparison_value": 1200,
+      "savings_amount": 650,
+      "savings_percent": 54.17,
+      "unit_price": 183.33
+    },
+    {
+      "offer_id": "a-3g",
+      "name": "Køb 3 · få 2 gratis",
+      "role": "volume",
+      "paid_quantity": 3,
+      "gift_quantity": 2,
+      "total_quantity": 5,
+      "price": 825,
+      "comparison_value": 2000,
+      "savings_amount": 1175,
+      "savings_percent": 58.75,
+      "unit_price": 165.0
+    }
+  ],
+  "copy": {
+    "promotion": {
+      "headline": "Køb 2 – få 1 gratis",
+      "message": "Vælg din pakke, og få flere lanterner til terrassen, altanen eller haven.",
+      "conditions": "Gaveenheden er en del af den valgte, foreslåede pakke. Kommercielle vilkår skal genbekræftes før publicering."
+    },
+    "brand_header": {
+      "headline": "Nelmoo.shop",
+      "message": "Roligt lys til de aftener, du gerne vil blive lidt længere i.",
+      "brand_name": "Nelmoo.shop"
+    },
+    "hero": {
+      "headline": "Skab hyggeligt lys, når solen går ned",
+      "message": "Glødflamme-lanternen giver et varmt LED-flammeudtryk til altan, terrasse og have – uden åben ild.",
+      "product_name": "Glødflamme – lanternen med den evige flamme",
+      "rating": {
+        "display": "Kildeanmeldelser er kun research og vises ikke som godkendt kundeanmeldelse.",
+        "review_count": null
+      },
+      "benefits": [
+        "Varmt LED-flammeudtryk i 2200K",
+        "Kan hænges eller placeres frit",
+        "Solcelle eller USB-C-opladning",
+        "Op til 8–10 timers drift pr. opladning"
+      ],
+      "offer_selector": {
+        "title": "Vælg din pakke",
+        "recommended_offer_id": "a-2g",
+        "choices": [
+          {
+            "offer_id": "a-1",
+            "name": "Køb 1",
+            "contents": "1 Glødflamme-lanterner",
+            "normal_value_dkk": 400,
+            "offer_price_dkk": 275,
+            "savings_dkk": 125,
+            "savings_percent": 31.25,
+            "unit_price_dkk": 275.0,
+            "gift_label": "Ingen gratis enhed"
+          },
+          {
+            "offer_id": "a-2g",
+            "name": "Køb 2 · få 1 gratis",
+            "contents": "3 Glødflamme-lanterner (2 betalt + 1 gratis)",
+            "normal_value_dkk": 1200,
+            "offer_price_dkk": 550,
+            "savings_dkk": 650,
+            "savings_percent": 54.17,
+            "unit_price_dkk": 183.33,
+            "gift_label": "Køb 2 · få 1 gratis"
+          },
+          {
+            "offer_id": "a-3g",
+            "name": "Køb 3 · få 2 gratis",
+            "contents": "5 Glødflamme-lanterner (3 betalt + 2 gratis)",
+            "normal_value_dkk": 2000,
+            "offer_price_dkk": 825,
+            "savings_dkk": 1175,
+            "savings_percent": 58.75,
+            "unit_price_dkk": 165.0,
+            "gift_label": "Køb 3 · få 2 gratis"
+          }
+        ]
+      },
+      "cta": "Tilføj køb 2 · få 1 gratis til kurven – 550 DKK",
+      "reassurance": [
+        "Gratis og hurtig levering i Danmark er oplyst på kildesiden.",
+        "30 dages returret er oplyst på kildesiden.",
+        "Sikker betaling i DKK."
+      ]
+    },
+    "how_it_works": {
+      "headline": "Lys op på din måde",
+      "message": "Placér eller hæng lanternen, lad den op i solen, eller brug USB-C, når du vil gøre den klar hurtigere.",
+      "steps": [
+        "Placér eller hæng lanternen, hvor du vil skabe stemning.",
+        "Oplad med solcelle i cirka 8 timer eller via USB-C i cirka 4 timer.",
+        "Nyd det varme LED-flammeudtryk om aftenen."
+      ],
+      "note": "Driftstid er oplyst som op til 8–10 timer pr. opladning og kan afhænge af lysforhold og brug."
+    },
+    "benefits": {
+      "headline": "En lille lanterne, der ændrer stemningen",
+      "message": "Lys i regnvejr, fleksibel placering og hyggelig LED-glød med enkel opladning.",
+      "items": [
+        {
+          "title": "Hyggeligt lys – også i regnvejr",
+          "body": "Den vejrbestandige lanterne lyser videre, når regnen falder på terrassen eller i haven."
+        },
+        {
+          "title": "Hæng den op, eller sæt den på bordet",
+          "body": "Brug hamperebet til ophæng, eller stil lanternen på bordet. Flyt nemt hyggen med dig."
+        },
+        {
+          "title": "Flammeeffekt uden åben ild",
+          "body": "Nyd den varme LED-glød med mindre daglig indsats. Oplad i solen om dagen eller via USB-C på cirka 4 timer."
+        }
+      ]
+    },
+    "product_details": {
+      "headline": "Detaljer, du kan planlægge efter",
+      "message": "En kompakt dekorationslanterne til altan, terrasse, bord eller have.",
+      "specifications": [
+        [
+          "Materialer",
+          "ABS-plast, pulverlakeret metal og hampereb"
+        ],
+        [
+          "Mål",
+          "Ca. Ø12 cm og 24–25 cm høj"
+        ],
+        [
+          "Lyskilde",
+          "2W LED med flammeeffekt, varm hvid 2200K"
+        ],
+        [
+          "Batteri",
+          "1800 mAh litiumbatteri"
+        ],
+        [
+          "Opladning",
+          "Solcelle (ca. 8 timers sol) eller USB-C (ca. 4 timer)"
+        ],
+        [
+          "Driftstid",
+          "Op til 8–10 timer pr. opladning"
+        ],
+        [
+          "Beskyttelse",
+          "IP65-vejrbestandighed er oplyst af kilden og kræver endelig leverandørbekræftelse"
+        ],
+        [
+          "Vægt",
+          "Ca. 400–550 g"
+        ]
+      ],
+      "included": "Den valgte pakke indeholder det antal Glødflamme-lanterner, der står på tilbudskortet."
+    },
+    "comparison": {
+      "headline": "Dekorativt lys med fri placering",
+      "message": "Sammenlignet med fast udendørsbelysning kombinerer Glødflamme flytbar placering, solcelle/USB-C-opladning og en dekorativ LED-flammeeffekt.",
+      "status_note": "Sammenligningen er funktionsbaseret. Ingen navngiven konkurrent eller markedsføringspåstand bruges."
+    },
+    "reviews": {
+      "headline": "Anmeldelser",
+      "message": "Der er endnu ikke tilknyttet godkendte førstehåndsanmeldelser til dette PDP-udkast. Kildeanmeldelser bruges kun som intern research og bliver ikke vist som kundeudtalelser.",
+      "review_policy": "Do not render generated or competitor-derived reviews as real customer proof."
+    },
+    "faq": {
+      "headline": "Spørgsmål, du måske har",
+      "message": "Svarene nedenfor holder sig til de godkendte produktobservationer og de opsamlede danske butikspolitikker.",
+      "items": [
+        {
+          "question": "Kan den stå udenfor?",
+          "answer": "Kilden angiver IP65-vejrbestandighed. Det bør endeligt leverandørbekræftes, før påstanden låses til publicering."
+        },
+        {
+          "question": "Hvor stor er lanternen?",
+          "answer": "Den er cirka 12 cm i diameter og 24–25 cm høj. Den er derfor dekorativ og kompakt – ikke en stor gulvlampe."
+        },
+        {
+          "question": "Hvordan oplades den?",
+          "answer": "Via solcelle med cirka 8 timers sol eller USB-C med cirka 4 timers opladning."
+        },
+        {
+          "question": "Hvad får jeg med i pakken?",
+          "answer": "Det præcise antal afhænger af dit valgte tilbudskort. Proposal A viser 1, 3 eller 5 lanterner – inklusive gratis enheder i gavepakkerne."
+        },
+        {
+          "question": "Kan jeg returnere min ordre?",
+          "answer": "Kildesiden oplyser 30 dages returret. De endelige returvilkår skal følge den låste butikspolitik."
+        }
+      ]
+    },
+    "final_offer": {
+      "headline": "Gør aftenerne lidt mere hyggelige",
+      "message": "Vælg den pakke, der passer til dit uderum, og se altid normalværdi, pakkepris og besparelse samlet.",
+      "selected_offer": {
+        "name": "Køb 2 · få 1 gratis",
+        "contents": "3 Glødflamme-lanterner (2 betalt + 1 gratis)",
+        "normal_value_dkk": 1200,
+        "offer_price_dkk": 550,
+        "savings_dkk": 650,
+        "savings_percent": 54.17,
+        "unit_price_dkk": 183.33
+      },
+      "cta": "Tilføj pakken til kurven – 550 DKK",
+      "note": "Efter køb/add-on-demo er en separat testoverflade og må ikke erstatte eller blandes sammen med Hero-tilbuddet."
+    },
+    "footer": {
+      "headline": "Har du brug for hjælp?",
+      "message": "Kundeservice: kontakt@hyggehavn.com. Åbningstid mandag–fredag kl. 08.00–17.00 CET; målsætning om svar inden for 24 timer.",
+      "links": [
+        "Kontakt",
+        "Forsendelse og levering",
+        "Returnering og refundering",
+        "Privatlivspolitik",
+        "Vilkår for brug"
+      ],
+      "business_name": "Hyggehavn"
+    }
+  },
+  "media": {
+    "G1": "assets/generated/hero-nelmoo-gallery-v1.png",
+    "G2": "assets/generated/G2-v3.png",
+    "G3": "assets/generated/G3-v3.png",
+    "HOW_1": "assets/generated/HOW_1-v2.png",
+    "BEN_1": "assets/generated/BEN_1.png",
+    "BEN_2": "assets/generated/BEN_2-v2.png",
+    "BEN_3": "assets/generated/BEN_3.png",
+    "DETAIL_1": "assets/generated/DETAIL_1.png",
+    "FINAL_1": "assets/generated/G2-v2.png",
+    "G4": "assets/generated/G4-v1.png",
+    "G5": "assets/generated/G5-v1.png",
+    "G6": "assets/generated/G6-v1.png",
+    "G7": "assets/generated/solar-lantern-comparison-v1.png"
+  },
+  "aftersell_demo": {
+    "route": "aftersell-demo/index.html",
+    "status": "demo_only",
+    "primary_offer_source": "selected-offer.json#choices"
+  },
+  "constraints": {
+    "test_only": true,
+    "checkout_enabled": false,
+    "deploy": false,
+    "publish": false
+  },
+  "gallery": [
+    {
+      "stable_slot_id": "G1",
+      "slot_id": "G1",
+      "group": "gallery",
+      "status": "passed",
+      "approval_status": "owner_supplied",
+      "path": "assets/generated/hero-nelmoo-gallery-v1.png",
+      "alt_text": "Glødflamme-lanterne hængende i haven og på terrassebordet ved solnedgang",
+      "communication_job": "Gør aftenen lidt hyggeligere",
+      "ratios": [
+        "1:1"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "source_or_generation_metadata": {
+        "method": "owner_supplied_image_import",
+        "source_filename": "codex-clipboard-5b7bd239-f3d2-466a-bbab-0eb4e5299e1e.png",
+        "sha256": "7d8c759dc33ffa271982b6464394760befa4c6b632181350378c9be9657fe578",
+        "imported_at": "2026-09-15",
+        "pixels_modified": false
+      },
+      "on_image_text": {
+        "status": "owner_supplied",
+        "language": "Danish",
+        "headline": "Gør aftenen lidt hyggeligere"
+      },
+      "text_delivery": "on_image"
+    },
+    {
+      "stable_slot_id": "G6",
+      "slot_id": "G6",
+      "group": "gallery",
+      "status": "passed",
+      "approval_status": "owner_supplied",
+      "path": "assets/generated/G6-v1.png",
+      "alt_text": "Lanternens mål: 28 cm inklusive håndtag og 12 cm bredde",
+      "communication_job": "Lanternens mål",
+      "ratios": [
+        "1:1"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "source_or_generation_metadata": {
+        "method": "owner_supplied_image_import",
+        "source_filename": "codex-clipboard-bd4f5c84-cd50-4e01-9e19-3fed39a1ced0.png",
+        "sha256": "2d6a77555529200a71b1d2500af09ea26258e23be214cfe5ae6a0b350c3e0a13",
+        "imported_at": "2026-09-15",
+        "pixels_modified": false
+      },
+      "on_image_text": {
+        "status": "owner_supplied",
+        "language": "Danish",
+        "headline": "Lanternens mål"
+      },
+      "text_delivery": "on_image"
+    },
+    {
+      "stable_slot_id": "G7",
+      "slot_id": "G7",
+      "group": "gallery",
+      "status": "passed",
+      "approval_status": "owner_supplied",
+      "path": "assets/generated/solar-lantern-comparison-v1.png",
+      "alt_text": "Sammenligning af solcellelanterne og bordlampe med ledning: strømkilde, betjening, lyseffekt og placering",
+      "communication_job": "More atmosphere. Less effort.",
+      "ratios": [
+        "1:1"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "source_or_generation_metadata": {
+        "method": "owner_supplied_image_import",
+        "source_filename": "codex-clipboard-7c20b9cf-9b0c-42ef-a364-4026a629a8f6.png",
+        "sha256": "83ce2e8496fa703f19f62aea96c898a3ce3f9c548cb0f2120cfc6e8062e60af8",
+        "imported_at": "2026-09-15",
+        "pixels_modified": false
+      },
+      "on_image_text": {
+        "status": "owner_supplied",
+        "language": "English",
+        "headline": "More atmosphere. Less effort."
+      },
+      "text_delivery": "on_image"
+    },
+    {
+      "stable_slot_id": "G3",
+      "slot_id": "G3",
+      "group": "gallery",
+      "status": "passed",
+      "approval_status": "owner_supplied",
+      "path": "assets/generated/G3-v3.png",
+      "alt_text": "Lanterne med oversigt over seks funktioner",
+      "communication_job": "Skabt til hver eneste aften",
+      "ratios": [
+        "1:1"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "source_or_generation_metadata": {
+        "method": "owner_supplied_image_import",
+        "source_filename": "codex-clipboard-d38eb0e4-9208-430f-a44e-5553c54486d6.png",
+        "sha256": "f21a02ffc733a0b832a8972e5743f15777e2c8f88cc60a1df5ebde5d01f46d53",
+        "imported_at": "2026-09-15",
+        "pixels_modified": false
+      },
+      "on_image_text": {
+        "status": "owner_supplied",
+        "language": "Danish",
+        "headline": "Skabt til hver eneste aften"
+      },
+      "text_delivery": "on_image"
+    },
+    {
+      "stable_slot_id": "G4",
+      "slot_id": "G4",
+      "group": "gallery",
+      "status": "passed",
+      "approval_status": "owner_supplied",
+      "path": "assets/generated/G4-v1.png",
+      "alt_text": "Lanterne med solcelle- og USB-opladning vist dag og aften",
+      "communication_job": "Altid opladet, altid klar",
+      "ratios": [
+        "1:1"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "source_or_generation_metadata": {
+        "method": "owner_supplied_image_import",
+        "source_filename": "codex-clipboard-0c5ed749-6754-405d-8b27-c757643532eb.png",
+        "sha256": "9edde386ad3b89f84e9b467cc9ba6a77198cd9fd4c2e9db3281991b9b9230fd2",
+        "imported_at": "2026-09-15",
+        "pixels_modified": false
+      },
+      "on_image_text": {
+        "status": "owner_supplied",
+        "language": "Danish",
+        "headline": "Altid opladet, altid klar"
+      },
+      "text_delivery": "on_image"
+    },
+    {
+      "stable_slot_id": "G5",
+      "slot_id": "G5",
+      "group": "gallery",
+      "status": "passed",
+      "approval_status": "owner_supplied",
+      "path": "assets/generated/G5-v1.png",
+      "alt_text": "Lanterne i regn med IP65-angivelse",
+      "communication_job": "Vejret stopper ikke lyset",
+      "ratios": [
+        "1:1"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "source_or_generation_metadata": {
+        "method": "owner_supplied_image_import",
+        "source_filename": "codex-clipboard-c6398039-9656-4cfe-af06-ed9d2b57e9be.png",
+        "sha256": "63a316f900dd112f7c8a38e7fa68761d517ae80f1a1dcfe51fc3b6f27adb74fe",
+        "imported_at": "2026-09-15",
+        "pixels_modified": false
+      },
+      "on_image_text": {
+        "status": "owner_supplied",
+        "language": "Danish",
+        "headline": "Vejret stopper ikke lyset"
+      },
+      "text_delivery": "on_image"
+    },
+    {
+      "stable_slot_id": "G2",
+      "slot_id": "G2",
+      "group": "gallery",
+      "status": "passed",
+      "approval_status": "owner_supplied",
+      "path": "assets/generated/G2-v3.png",
+      "alt_text": "Tre solcellelanterner med flammeeffekt på terrassen",
+      "communication_job": "Havesæt – klar til at lyse",
+      "ratios": [
+        "1:1"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "source_or_generation_metadata": {
+        "method": "owner_supplied_image_import",
+        "source_filename": "codex-clipboard-f9bf9b6c-f65f-442c-bdd5-0191eddc6bc5.png",
+        "sha256": "73b651ace486b0f51df646014828d69d1d3f0d720be28ef48d220f8dd0ec14c4",
+        "imported_at": "2026-09-15",
+        "pixels_modified": false
+      },
+      "on_image_text": {
+        "status": "owner_supplied",
+        "language": "Danish",
+        "headline": "Havesæt – klar til at lyse"
+      },
+      "text_delivery": "on_image"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "url": "http://127.0.0.1:8765/products/glodflamme-lantern--001/build/index.html",
+  "passed": true,
+  "viewports": {
+    "mobile_360": {
+      "innerWidth": 360,
+      "scrollWidth": 360,
+      "horizontalOverflowPx": 0,
+      "brokenImages": [],
+      "tooSmallTargets": [],
+      "heroTitleSize": "33.48px",
+      "bodyLineHeight": "24.8px",
+      "selectedOffer": "a-2g",
+      "visibleEyebrows": 0
+    },
+    "mobile_375": {
+      "innerWidth": 375,
+      "scrollWidth": 375,
+      "horizontalOverflowPx": 0,
+      "brokenImages": [],
+      "tooSmallTargets": [],
+      "heroTitleSize": "34.875px",
+      "bodyLineHeight": "24.8px",
+      "selectedOffer": "a-2g",
+      "visibleEyebrows": 0
+    },
+    "mobile_390": {
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "horizontalOverflowPx": 0,
+      "brokenImages": [],
+      "tooSmallTargets": [],
+      "heroTitleSize": "36.27px",
+      "bodyLineHeight": "24.8px",
+      "selectedOffer": "a-2g",
+      "visibleEyebrows": 0
+    },
+    "mobile_430": {
+      "innerWidth": 430,
+      "scrollWidth": 430,
+      "horizontalOverflowPx": 0,
+      "brokenImages": [],
+      "tooSmallTargets": [],
+      "heroTitleSize": "37px",
+      "bodyLineHeight": "24.8px",
+      "selectedOffer": "a-2g",
+      "visibleEyebrows": 0
+    },
+    "desktop_1440": {
+      "innerWidth": 1440,
+      "scrollWidth": 1440,
+      "horizontalOverflowPx": 0,
+      "brokenImages": [],
+      "tooSmallTargets": [],
+      "heroTitleSize": "49.68px",
+      "bodyLineHeight": "24.8px",
+      "selectedOffer": "a-2g",
+      "visibleEyebrows": 0
+    }
+  },
+  "interactions": {
+    "offer": {
+      "selected": "a-3g",
+      "heroCta": "Tilføj 5 lanterner til kurven · 825 kr.",
+      "finalCta": "Tilføj 5 lanterner til kurven · 825 kr.",
+      "finalSummary": "Køb 3 · få 2 gratis5 lanterner i altNormalværdi 2.000 kr.825 kr.Du sparer 1.175 kr. · 58,75 %",
+      "fivePackCount": 5
+    },
+    "gallery": {
+      "counter": "3 / 3",
+      "currentThumb": 2
+    },
+    "faqOpens": true,
+    "aftersell": {
+      "url": "http://127.0.0.1:8765/products/glodflamme-lantern--001/build/aftersell-demo/index.html?from=hero&offer=a-3g",
+      "heading": "Vil du have lys i endnu et hjørne?",
+      "primaryChoice": "Din hovedpakke: Køb 3 · få 2 gratis · 5 lanterner · 825 kr.",
+      "demoLabel": "Tilføj 2 ekstra lanterner · 399 kr. (demo)",
+      "testStrip": "LOKAL TEST · INGEN ORDRE ELLER BETALING"
+    }
+  },
+  "console": []
+}
