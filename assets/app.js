@@ -75,7 +75,7 @@ function renderGallery() {
   function showImage(index) {
     activeIndex = (index + gallery.length) % gallery.length;
     const image = gallery[activeIndex];
-    $('hero-image').src = '../' + image.path;
+    $('hero-image').src = image.path;
     $('hero-image').alt = image.alt_text;
     $('image-counter').textContent = `${activeIndex + 1} / ${gallery.length}`;
     [...controls.children].forEach((item, i) => item.setAttribute('aria-current', String(i === activeIndex)));
@@ -85,7 +85,7 @@ function renderGallery() {
     const button = node('button', 'gallery-thumb');
     button.type = 'button';
     button.setAttribute('aria-label', `Vis produktbillede ${index + 1}`);
-    const thumb = node('img'); thumb.src = '../' + path; thumb.alt = ''; button.append(thumb);
+    const thumb = node('img'); thumb.src = path; thumb.alt = ''; button.append(thumb);
     button.addEventListener('click', () => showImage(index));
     controls.append(button);
   });
