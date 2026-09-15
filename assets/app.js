@@ -1,6 +1,6 @@
 const $ = id => document.getElementById(id);
 const kr = value => new Intl.NumberFormat('da-DK', {maximumFractionDigits: value % 1 ? 2 : 0}).format(value) + ' kr.';
-const imgPath = name => '../assets/generated/' + name;
+const imgPath = name => 'assets/generated/' + name;
 let view;
 let selectedOffer;
 
