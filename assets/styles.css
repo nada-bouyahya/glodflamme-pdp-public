@@ -109,11 +109,13 @@ details.faq p{padding:0 25px 18px 0;color:#4c5c51;margin:0}
 .final-summary{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;margin:24px 0;display:grid;gap:5px}
 .final-summary .price{font-size:30px;font-weight:700}
 .outline-button{display:inline-block;border:1px solid var(--pine);padding:12px 16px;text-decoration:none;border-radius:10px;font-size:14px;font-weight:700;margin-bottom:12px}
-.footer{background:#101c16;color:var(--white);padding:40px 0}
-.footer-inner{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:center}
+.footer{background:#101c16;color:var(--white);padding:56px 0 24px}
+.footer-inner{display:grid;grid-template-columns:minmax(0,1.7fr) 1fr 1fr;gap:36px;align-items:start}
 .footer .wordmark span{color:#e9bd74}
 .footer p{margin:0;color:#d7dfd7}
-.footer-small{grid-column:1/-1;font-size:12px;opacity:.75}
+.footer-brand{max-width:300px}.footer-brand .wordmark{margin-bottom:14px}.footer-brand p{line-height:1.6}
+.footer-nav{display:flex;flex-direction:column;gap:10px}.footer-label{color:#e9bd74!important;font-size:12px;text-transform:uppercase;letter-spacing:.12em;margin:0 0 4px!important}.footer-nav a,.footer-legal a{color:#d7dfd7;text-decoration:none;font-size:14px}.footer-nav a:hover,.footer-legal a:hover{text-decoration:underline;text-underline-offset:4px;color:#fff}
+.footer-bottom{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.16);padding-top:18px;margin-top:10px;display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-small{font-size:12px;opacity:.75}.footer-legal{display:flex;gap:18px}
 @media(max-width:900px){
   .hero{grid-template-columns:1fr}.hero-gallery{position:static}.hero-image-wrap img{aspect-ratio:4/4}
   .split,.final-section{grid-template-columns:1fr}.benefit-grid{grid-template-columns:repeat(2,1fr)}
@@ -127,7 +129,7 @@ details.faq p{padding:0 25px 18px 0;color:#4c5c51;margin:0}
   .section{padding-top:62px;padding-bottom:62px}.benefit-grid{grid-template-columns:1fr}
   .benefit-card{display:grid;grid-template-columns:42% 58%}.benefit-card img{height:100%;aspect-ratio:1/1;object-fit:cover}
   .benefit-card-content{padding:15px}.benefit-card h3{font-size:17px}.benefit-card p{font-size:13px}
-  .footer-inner{grid-template-columns:1fr}.footer-small{grid-column:auto}.specs div{font-size:13px}
+  .footer-inner{grid-template-columns:1fr}.footer-small{grid-column:auto}.footer-bottom{align-items:flex-start;flex-direction:column}.specs div{font-size:13px}
 }
 
 /* Step 10 Impeccable pass: Nordic Ember hierarchy, contrast, offer focus and resilient states. */
