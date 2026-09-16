@@ -17,3 +17,4 @@
 @media(max-width:540px){.review-rail-controls{margin:-4px 0 12px}.review-concept-grid{gap:16px}.review-concept{flex-basis:min(76vw,290px)}.review-concept figure{max-width:360px}.review-concept h3{font-size:24px}.review-concept p{font-size:16px}}
 
 .concept-rating{display:flex;gap:4px;color:#926019;margin:0 0 12px}.concept-rating svg{display:block;flex-shrink:0}
+.concept-rating span{font-size:20px;line-height:1}.concept-rating .empty-star{opacity:.28}
