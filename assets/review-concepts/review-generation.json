@@ -1,0 +1,14 @@
+{
+  "review_generation": {
+    "skill": "phone-product-scenes",
+    "status": "used",
+    "fictional_provenance": true,
+    "scope": "internal_review_concept",
+    "slots": [
+      {"slot": 5, "scene": "hands hanging lantern from a backyard pergola in overcast daylight", "theme": "easy hanging", "status": "used"},
+      {"slot": 6, "scene": "lantern on a rain-speckled garden stone wall beside herbs", "theme": "weather-ready garden light", "status": "used"},
+      {"slot": 7, "scene": "hands connecting USB-C on a kitchen counter", "theme": "backup charging", "status": "used"},
+      {"slot": 8, "scene": "lantern glowing on a compact balcony table beside a book at blue hour", "theme": "quiet evening light", "status": "used"}
+    ]
+  }
+}
