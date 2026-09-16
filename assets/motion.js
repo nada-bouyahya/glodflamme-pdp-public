@@ -25,4 +25,13 @@
   };
   window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(updateScrollMotion); } }, { passive: true });
   updateScrollMotion();
+
+  const rail = document.querySelector('#review-concept-grid');
+  const moveReviews = direction => {
+    if (!rail) return;
+    const card = rail.querySelector('.review-concept');
+    rail.scrollBy({ left: direction * ((card?.getBoundingClientRect().width || 280) + 20), behavior: preference.matches ? 'auto' : 'smooth' });
+  };
+  document.querySelector('#reviews-previous')?.addEventListener('click', () => moveReviews(-1));
+  document.querySelector('#reviews-next')?.addEventListener('click', () => moveReviews(1));
 })();

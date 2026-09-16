@@ -1,8 +1,11 @@
 .sample-reviews{scroll-margin-top:24px}
 .sample-reviews .section-intro{max-width:760px;margin-bottom:36px}
 .concept-notice{color:#48584e;max-width:70ch}
-.review-concept-grid{display:flex;flex-wrap:nowrap;gap:24px;overflow-x:auto;overscroll-behavior-x:contain;padding:0 0 18px;scroll-snap-type:x proximity;scrollbar-color:var(--gold) var(--cream)}
-.review-concept{flex:0 0 clamp(270px,28vw,340px);min-width:0;scroll-snap-align:start}
+.review-rail-controls{display:flex;justify-content:flex-end;gap:8px;margin:-12px 0 12px}
+.review-rail-arrow{width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:var(--warm-white);color:var(--night);font-size:22px;line-height:1;cursor:pointer;transition:background 180ms ease,transform 180ms ease}
+.review-rail-arrow:hover{background:var(--gold);transform:translateY(-2px)}
+.review-concept-grid{display:flex;flex-wrap:nowrap;gap:20px;overflow-x:auto;overscroll-behavior-x:contain;padding:0 0 18px;scroll-snap-type:x proximity;scrollbar-color:var(--gold) var(--cream)}
+.review-concept{flex:0 0 clamp(240px,24vw,300px);min-width:0;scroll-snap-align:start}
 .review-concept figure{margin:0 0 20px}
 .review-concept img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:contain;border-radius:14px;background:var(--cream)}
 .review-concept figcaption{font-size:12px;line-height:1.5;color:#48584e;margin-top:9px}
@@ -11,6 +14,6 @@
 .review-concept .concept-person{font-weight:700;margin-top:20px;margin-bottom:5px}
 .concept-person span{font-weight:400;font-size:12px;color:#48584e}
 .review-concept .concept-tags{font-size:13px;color:#48584e}
-@media(max-width:540px){.review-concept-grid{gap:16px}.review-concept{flex-basis:min(82vw,340px)}.review-concept figure{max-width:360px}.review-concept h3{font-size:26px}.review-concept p{font-size:16px}}
+@media(max-width:540px){.review-rail-controls{margin:-4px 0 12px}.review-concept-grid{gap:16px}.review-concept{flex-basis:min(76vw,290px)}.review-concept figure{max-width:360px}.review-concept h3{font-size:24px}.review-concept p{font-size:16px}}
 
 .concept-rating{display:flex;gap:4px;color:#926019;margin:0 0 12px}.concept-rating svg{display:block;flex-shrink:0}
