@@ -5,11 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#17251f">
   <title>Glødflamme · Nelmoo.shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="assets/app.js" defer></script>
   <link rel="stylesheet" href="assets/motion.css?v=1">
   <script src="assets/motion.js?v=1" defer></script>
   <link rel="stylesheet" href="assets/review-concepts.css">
+  <style>
+    /* Glødflamme PDP type system. */
+    html body { font-family: "DM Sans", sans-serif; font-size: 18px; line-height: 1.55; }
+    html body h1,
+    html body h2,
+    html body .offer-heading h2 { font-family: "Cormorant Garamond", Georgia, serif !important; font-weight: 700 !important; }
+    html body h1 { font-size: 48px !important; line-height: 1.05 !important; max-width: none !important; text-wrap: initial !important; }
+    html body h2,
+    html body .offer-heading h2 { font-size: 42px !important; line-height: 1.1 !important; }
+    html body h3 { font-family: "DM Sans", sans-serif; font-size: 18px !important; line-height: 1.2; font-weight: 700 !important; letter-spacing: -.02em; }
+    html body p,
+    html body li,
+    html body dt,
+    html body dd { font-family: "DM Sans", sans-serif; }
+    html body button,
+    html body a { font-family: "DM Sans", sans-serif; }
+    html body button { font-size: 16px; font-weight: 600; }
+    html body .offer-price,
+    html body .final-summary .price { font-family: "DM Sans", sans-serif; font-size: 28px; font-weight: 700; }
+    html body .review-concept h3 { font-family: "DM Sans", sans-serif; font-size: 18px !important; line-height: 1.2; font-weight: 700 !important; }
+    html body .review-concept p,
+    html body .concept-person,
+    html body .concept-tags { font-family: "DM Sans", sans-serif; font-size: 15px; }
+    html body .eyebrow,
+    html body .preview-note,
+    html body .offer-badge,
+    html body .offer-value,
+    html body .header-note,
+    html body .image-counter { font-family: "DM Sans", sans-serif; font-size: 14px; }
+    html body .primary-button,
+    html body .outline-button { font-size: 16px; font-weight: 700; }
+    html body .hero-rating { display: flex; align-items: center; gap: 9px; margin: 0 0 14px; color: #85520f; font-family: "DM Sans", sans-serif; font-size: 15px; line-height: 1.2; }
+    html body .hero-stars { letter-spacing: 2px; font-size: 18px; line-height: 1; }
+    html body .hero-rating strong { color: #17251f; font-weight: 700; }
+    @media (max-width: 620px) {
+      html body h1 { font-size: 48px !important; }
+      html body h2 { font-size: 40px !important; }
+      html body h3,
+      html body .review-concept h3 { font-size: 18px !important; }
+      html body { font-size: 17px; }
+    }
+  </style>
 </head>
 <body>
   <div class="promo" id="promotion"></div>
@@ -22,6 +67,7 @@
       </div>
       <div class="buy-box">
         <p class="eyebrow">SOLCELLELANTERNE · LED-FLAMMEEFFEKT</p>
+        <div class="hero-rating" role="img" aria-label="5 ud af 5 stjerner"><span class="hero-stars" aria-hidden="true">★★★★★</span><strong>4.8/5</strong></div>
         <h1 id="hero-title"></h1>
         <p class="hero-description" id="hero-description"></p>
         <ul class="hero-benefits" id="hero-benefits"></ul>

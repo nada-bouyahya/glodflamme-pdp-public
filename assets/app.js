@@ -1,6 +1,8 @@
 const $ = id => document.getElementById(id);
 const kr = value => new Intl.NumberFormat('da-DK', {maximumFractionDigits: value % 1 ? 2 : 0}).format(value) + ' kr.';
-const imgPath = name => 'assets/generated/' + name;
+const assetVersion = '20260915-assets-2';
+const versionedAsset = path => `${path}${path.includes('?') ? '&' : '?'}v=${assetVersion}`;
+const imgPath = name => versionedAsset('assets/generated/' + name);
 let view;
 let selectedOffer;
 
@@ -75,7 +77,7 @@ function renderGallery() {
   function showImage(index) {
     activeIndex = (index + gallery.length) % gallery.length;
     const image = gallery[activeIndex];
-    $('hero-image').src = image.path;
+    $('hero-image').src = versionedAsset(image.path);
     $('hero-image').alt = image.alt_text;
     $('image-counter').textContent = `${activeIndex + 1} / ${gallery.length}`;
     [...controls.children].forEach((item, i) => item.setAttribute('aria-current', String(i === activeIndex)));
@@ -85,7 +87,7 @@ function renderGallery() {
     const button = node('button', 'gallery-thumb');
     button.type = 'button';
     button.setAttribute('aria-label', `Vis produktbillede ${index + 1}`);
-    const thumb = node('img'); thumb.src = path; thumb.alt = ''; button.append(thumb);
+    const thumb = node('img'); thumb.src = versionedAsset(path); thumb.alt = ''; button.append(thumb);
     button.addEventListener('click', () => showImage(index));
     controls.append(button);
   });
