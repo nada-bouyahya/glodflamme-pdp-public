@@ -1,0 +1,7 @@
+/* Keep native wheel/touch scrolling and leave all content visible by default. */
+html { scroll-behavior: smooth; }
+#top, #offers { scroll-margin-top: 24px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
